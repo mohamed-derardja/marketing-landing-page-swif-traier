@@ -13,7 +13,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "DentDz — Gestion de Cabinet Dentaire",
+  title: "Swift Triage — Emergency Department Dashboard",
   description: "Solution de gestion de cabinet tout-en-un pour les professionnels dentaires.",
 };
 

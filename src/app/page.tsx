@@ -37,7 +37,7 @@ function Navbar() {
             <Stethoscope size={24} />
           </div>
           <span className="text-2xl font-extrabold tracking-tight text-slate-900">
-            dent<span className="text-blue-600">dz</span>
+            Swift<span className="text-blue-600">Triage</span>
           </span>
         </div>
 
@@ -283,31 +283,31 @@ export default function Page() {
                 <span className="text-xs font-bold text-blue-700 uppercase tracking-wider">Solution tout-en-un</span>
               </div>
               <h2 className="text-4xl md:text-5xl font-extrabold text-slate-900 leading-[1.1] mb-6">
-                Nouvelle generation de{" "}
-                <span className="bg-gradient-to-r from-blue-600 to-cyan-400 bg-clip-text text-transparent">Croissance</span>{" "}
-                pour votre Cabinet
+                Smart Triage for{" "}
+                <span className="bg-gradient-to-r from-blue-600 to-cyan-400 bg-clip-text text-transparent">Emergency</span>{" "}
+                Departments
               </h2>
               <p className="text-lg text-slate-500 leading-relaxed mb-8">
-                Rationalisez l&apos;ensemble de votre flux de travail — de la planification des rendez-vous et de la gestion des dossiers patients a la gestion des operations quotidiennes — avec une seule plateforme intuitive. dentdz supprime le fardeau du travail administratif afin que votre equipe puisse se concentrer sur ce qui compte le plus : offrir des soins exceptionnels aux patients.
+                A touchscreen dashboard at the entrance of the emergency department that allows patients to quickly describe their condition using an interactive body map. Swift Triage automatically calculates urgency, reduces waiting times, and improves patient flow by routing cases to the correct department with intelligent triage scoring.
               </p>
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center gap-2 text-sm font-semibold text-slate-700">
                   <div className="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center">
-                    <Calendar size={14} className="text-blue-600" />
+                    <Users size={14} className="text-blue-600" />
                   </div>
-                  Planification intelligente
+                  Visual Body Map
                 </div>
                 <div className="flex items-center gap-2 text-sm font-semibold text-slate-700">
                   <div className="w-8 h-8 rounded-full bg-emerald-100 flex items-center justify-center">
-                    <FileText size={14} className="text-emerald-600" />
+                    <Sparkles size={14} className="text-emerald-600" />
                   </div>
-                  Dossiers numeriques
+                  Smart Triage Scoring
                 </div>
                 <div className="flex items-center gap-2 text-sm font-semibold text-slate-700">
                   <div className="w-8 h-8 rounded-full bg-violet-100 flex items-center justify-center">
-                    <Users size={14} className="text-violet-600" />
+                    <ChevronRight size={14} className="text-violet-600" />
                   </div>
-                  Gestion des patients
+                  Automatic Routing
                 </div>
               </div>
             </div>
@@ -315,7 +315,7 @@ export default function Page() {
               <div className="absolute -inset-4 bg-gradient-to-tr from-blue-200/40 to-cyan-200/40 rounded-3xl blur-2xl pointer-events-none" />
               <img
                 src="/image.png"
-                alt="Tableau de bord DentDz"
+                alt="Swift Triage Emergency Dashboard"
                 className="relative rounded-2xl shadow-2xl shadow-blue-200/50 border border-slate-100 w-full"
               />
             </div>
@@ -397,7 +397,7 @@ export default function Page() {
               Ils nous font <span className="text-blue-600">confiance</span>
             </h2>
             <p className="text-lg text-slate-500">
-              Des centaines de cabinets dentaires utilisent DentDz chaque jour pour simpler leur quotidien.
+              Hundreds of emergency departments use Swift Triage daily to improve patient care and reduce wait times.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
@@ -405,7 +405,7 @@ export default function Page() {
               {
                 name: "Dr. Amine Khelifi",
                 role: "Cabinet dentaire, Alger",
-                text: "Depuis que nous utilisons DentDz, le temps d'attente a diminue de moitie et mes patients adorent les rappels automatiques.",
+                text: "Since we deployed Swift Triage, our triage time dropped by 40% and patient satisfaction increased significantly.",
               },
               {
                 name: "Dr. Sarah Benali",
@@ -519,7 +519,7 @@ export default function Page() {
             </div>
           </div>
           <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
-            <p> DentDz. Tous droits reserves.</p>
+            <p> Swift Triage. All rights reserved.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-white transition-colors">Confidentialite</a>
               <a href="#" className="hover:text-white transition-colors">Conditions</a>
